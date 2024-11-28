@@ -6,4 +6,4 @@ const port = process.env.PORT || 10000;
 
 server.use(middlewares);
 server.use(router);
-server.listen   (port);
+server.listen(port);
